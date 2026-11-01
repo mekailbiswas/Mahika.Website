@@ -1,0 +1,22 @@
+/* Colours are PROVISIONAL: sampled from the supplied logos and banner.
+   They are not official brand HEX values until the owner approves them. */
+:root {
+  --c-bg: #ffffff; /* logo files have opaque white backgrounds, so the page stays white */
+  --c-surface: #fbeee8;
+  --c-text: #5a3320; /* logo wordmark brown, darkened for contrast */
+  --c-text-soft: #7d5a48;
+  --c-copper: #b76f56;
+  --c-rose: #e38993;
+  --c-rose-deep: #b4545f; /* link/button colour with AA contrast on cream */
+  --c-leaf: #5f7f48;
+  --c-line: #ecd9d0;
+
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body: 'Jost', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --header-h: 64px;
+  --space-section: clamp(4rem, 9vw, 8rem);
+  --container: 1120px;
+  --gutter: clamp(1.25rem, 5vw, 2.5rem);
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}

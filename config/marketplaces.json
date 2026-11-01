@@ -1,0 +1,7 @@
+{
+  "marketplaces": {
+    "meesho": { "enabled": true, "url": "https://meesho.com/MAHIKAESHOP" },
+    "flipkart": { "enabled": true, "url": "https://www.flipkart.com/mahika-water-bottle-digital-temperature-display-500-ml-stainless-steel/p/itm092efde04bb0a?pid=BOTHSFB6BBQM6HCA" },
+    "amazon": { "enabled": true, "url": "https://www.amazon.in/l/27943762031?me=AM1N5W8CQ54RZ" }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "mahika-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "assets": "node scripts/optimise-assets.mjs",
+    "build": "vite build && node scripts/check-placeholders.mjs",
+    "preview": "vite preview",
+    "test": "node --test scripts/redirects.test.mjs",
+    "favicon": "node scripts/make-favicon.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "sharp": "^0.33.5",
+    "vite": "^5.4.11"
+  }
+}
